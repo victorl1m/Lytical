@@ -22,7 +22,7 @@ export default function Home() {
       <main className="flex min-h-screen max-xl:p-2 bg-neutral-900 justify-between flex-col">
         <Brand />
         <div className="flex flex-row items-center justify-between">
-          <div className="p-48 pl-24 pr-16 pt-24 pb-24 max-xl:p-6 h-full max-xl:items-center flex flex-col bg-neutral-800 w-min max-xl:w-full rounded-3xl">
+          <div className="p-48 pl-24 pr-16 pt-24 pb-24 max-xl:p-6 h-full max-xl:items-center flex flex-col rounded-tl-none rounded-bl-none bg-neutral-800 w-min max-xl:w-full rounded-3xl">
             <h1 className="text-3xl font-bold text-white text-left">Entrar</h1>
             <div className="mt-12 max-xl:p-6 w-96 flex justify-center flex-col">
               <label htmlFor="email" className="text-white text-xl">
@@ -48,8 +48,9 @@ export default function Home() {
             </div>
           </div>
           <svg
-            width="521"
-            height="521"
+            width="640"
+            className="mr-48"
+            height="480"
             viewBox="0 0 521 521"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
