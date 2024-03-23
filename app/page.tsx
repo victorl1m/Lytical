@@ -19,28 +19,26 @@ export default function Home() {
 
   return (
     <>
-      <main className="flex min-h-screen flex-col bg-neutral-900 justify-between">
+      <main className="flex min-h-screen max-xl:p-2 flex-col bg-neutral-900 justify-between">
         <Brand />
         <div className="sm:p-0 lg:p-0 md:p-0 xl:p-48 2xl:p-48 h-full max-xl:items-center flex flex-col">
           <h1 className="text-3xl font-bold text-white font-base text-left">
             Entrar
           </h1>
-          <div className="mt-12 w-96 flex justify-center flex-col">
-            <div>
-              <label htmlFor="email" className="font-base text-white text-xl">
-                E-mail
-              </label>
-              <input
-                id="email"
-                type="email"
-                onChange={(e) => setEmail(e.target.value)}
-                className="w-96 text-white bg-neutral-800 p-4 rounded-xl border-2 border-neutral-700 mt-1 focus:outline-none focus:border-purple-900"
-              />
-            </div>
+          <div className="mt-12 max-xl:p-6 w-96 flex justify-center flex-col">
+            <label htmlFor="email" className="font-base text-white text-xl">
+              E-mail
+            </label>
+            <input
+              id="email"
+              type="email"
+              onChange={(e) => setEmail(e.target.value)}
+              className="w-full text-white bg-neutral-800 p-4 rounded-xl border-2 border-neutral-700 mt-1 focus:outline-none focus:border-purple-900"
+            />
 
             <button
               onClick={handleSearchAccount}
-              className="mt-6 w-96 h-16 bg-purple-900 rounded-xl justify-center flex items-center font-base text-xl"
+              className="mt-6 w-full h-16 bg-purple-900 rounded-xl justify-center flex items-center font-base text-xl focus:outline-none"
             >
               {loading ? (
                 <Loader2 className="h-6 w-6 animate-spin text-purple-500" />
