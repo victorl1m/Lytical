@@ -21,8 +21,10 @@ export default function Home() {
     <>
       <main className="flex min-h-screen flex-col bg-neutral-900 justify-between">
         <Brand />
-        <div className="p-48 h-full">
-          <h1 className="text-3xl font-bold text-white font-base">Entrar</h1>
+        <div className="sm:p-0 lg:p-0 md:p-0 xl:p-48 2xl:p-48 h-full max-xl:items-center flex flex-col">
+          <h1 className="text-3xl font-bold text-white font-base text-left">
+            Entrar
+          </h1>
           <div className="mt-12 w-96 flex justify-center flex-col">
             <div>
               <label htmlFor="email" className="font-base text-white text-xl">

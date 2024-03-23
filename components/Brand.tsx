@@ -1,6 +1,6 @@
 export default function Brand() {
   return (
-    <div className="w-full flex flex-row p-6 pl-12 pr-12">
+    <div className="w-full flex flex-row p-6 max-xl:justify-center pl-12 pr-12 max-xl:pl-0 max-xl:pr-0">
       <div className="flex flex-row items-center gap-1 justify-center">
         <svg
           width="24"
