@@ -22,12 +22,10 @@ export default function Home() {
       <main className="flex min-h-screen max-xl:p-2 bg-neutral-900 justify-between flex-col">
         <Brand />
         <div className="flex flex-row items-center justify-between">
-          <div className="p-6 sm:p-0 lg:p-0 md:p-0 xl:p-48 2xl:p-48 h-full max-xl:items-center flex flex-col bg-neutral-800 w-min max-xl:w-full rounded-3xl">
-            <h1 className="text-3xl font-bold text-white font-base text-left">
-              Entrar
-            </h1>
+          <div className="p-48 pl-24 pr-16 pt-24 pb-24 max-xl:p-6 h-full max-xl:items-center flex flex-col bg-neutral-800 w-min max-xl:w-full rounded-3xl">
+            <h1 className="text-3xl font-bold text-white text-left">Entrar</h1>
             <div className="mt-12 max-xl:p-6 w-96 flex justify-center flex-col">
-              <label htmlFor="email" className="font-base text-white text-xl">
+              <label htmlFor="email" className="text-white text-xl">
                 E-mail
               </label>
               <input
@@ -39,7 +37,7 @@ export default function Home() {
 
               <button
                 onClick={handleSearchAccount}
-                className="mt-6 w-full h-16 bg-purple-900 rounded-xl justify-center flex items-center font-base text-xl focus:outline-none"
+                className="mt-6 w-full h-16 bg-purple-900 rounded-xl justify-center flex items-center text-xl focus:outline-none"
               >
                 {loading ? (
                   <Loader2 className="h-6 w-6 animate-spin text-purple-500" />
@@ -59,16 +57,16 @@ export default function Home() {
             <path
               d="M173.667 303.917C245.602 303.917 303.917 245.602 303.917 173.667C303.917 101.732 245.602 43.4167 173.667 43.4167C101.732 43.4167 43.4167 101.732 43.4167 173.667C43.4167 245.602 101.732 303.917 173.667 303.917Z"
               stroke="#581C87"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
             <path
               d="M392.704 225.115C413.225 232.766 431.485 245.468 445.797 262.046C460.108 278.624 470.009 298.543 474.582 319.961C479.155 341.379 478.254 363.604 471.962 384.582C465.67 405.559 454.189 424.611 438.583 439.976C422.976 455.341 403.747 466.523 382.674 472.487C361.601 478.451 339.364 479.005 318.02 474.098C296.676 469.191 276.914 458.981 260.561 444.413C244.209 429.845 231.794 411.388 224.464 390.75"
               stroke="#581C87"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
             <path
               d="M183.978 128.622C179.413 129.018 168.789 129.573 162.812 128.622V218.169H171.528H183.978V128.622Z"
