@@ -22,7 +22,7 @@ export default function Home() {
       <main className="flex min-h-screen max-xl:p-2 bg-neutral-900 justify-between flex-col">
         <Brand />
         <div className="flex flex-row items-center justify-between">
-          <div className="p-6 sm:p-0 lg:p-0 md:p-0 xl:p-48 2xl:p-48 h-full max-xl:items-center flex flex-col bg-neutral-800 w-min max-xl:w-auto rounded-3xl">
+          <div className="p-6 sm:p-0 lg:p-0 md:p-0 xl:p-48 2xl:p-48 h-full max-xl:items-center flex flex-col bg-neutral-800 w-min max-xl:w-full rounded-3xl">
             <h1 className="text-3xl font-bold text-white font-base text-left">
               Entrar
             </h1>
